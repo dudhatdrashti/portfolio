@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
-import { FaGithub } from "react-icons/fa";
-import { FiExternalLink } from "react-icons/fi";
+// import { FaGithub } from "react-icons/fa";
+// import { FiExternalLink } from "react-icons/fi";
 import SectionTitle from "../components/SectionTitle";
 import { projects } from "../data/portfolioData";
 
@@ -45,7 +45,7 @@ export default function Projects() {
                 ))}
               </div>
 
-              <div className="project-links">
+              {/* <div className="project-links">
                 <a href={project.live} target="_blank" rel="noreferrer">
                   <FiExternalLink size={17} /> Live
                 </a>
@@ -53,7 +53,7 @@ export default function Projects() {
                 <a href={project.code} target="_blank" rel="noreferrer">
                   <FaGithub size={17} /> Code
                 </a>
-              </div>
+              </div> */}
             </div>
           </motion.article>
         ))}
